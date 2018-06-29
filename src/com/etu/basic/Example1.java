@@ -1,4 +1,4 @@
-package com.etu;
+package com.etu.basic;
 
 public class Example1 {
 

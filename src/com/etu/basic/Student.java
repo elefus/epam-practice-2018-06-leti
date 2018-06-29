@@ -1,4 +1,4 @@
-package com.etu;
+package com.etu.basic;
 
 class Student extends Person {
 

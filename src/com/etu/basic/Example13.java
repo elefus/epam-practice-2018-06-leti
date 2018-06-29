@@ -1,4 +1,4 @@
-package com.etu;
+package com.etu.basic;
 
 import java.io.FileWriter;
 import java.io.IOException;

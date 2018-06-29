@@ -1,0 +1,19 @@
+10 10
+. . w w w . . . . .
+. . w w w . . . . .
+. . w w w . w w . .
+. . w w w . . w . .
+. . w w w w w w . .
+. . . . . . . . . .
+. . w w w w w w . .
+. . w w w . . . . .
+w . w w w . . . . .
+w w w w w . . . . .
+
+3 6
+
+8 1
+
+2
+0 9 false
+9 5 false

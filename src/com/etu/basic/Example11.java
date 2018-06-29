@@ -1,4 +1,4 @@
-package com.etu;
+package com.etu.basic;
 
 import java.util.*;
 import java.util.ArrayList;

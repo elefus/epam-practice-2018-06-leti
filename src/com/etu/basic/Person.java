@@ -1,4 +1,4 @@
-package com.etu;
+package com.etu.basic;
 
 // 5427
 // 5416

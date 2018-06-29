@@ -1,4 +1,4 @@
-package com.etu;
+package com.etu.basic;
 
 import java.util.Arrays;
 import java.util.Comparator;

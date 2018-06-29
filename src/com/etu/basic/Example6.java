@@ -1,6 +1,4 @@
-package com.etu;
-
-import java.util.Arrays;
+package com.etu.basic;
 
 public class Example6 {
 
