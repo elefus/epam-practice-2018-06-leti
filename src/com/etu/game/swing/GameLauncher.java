@@ -21,14 +21,14 @@ public class GameLauncher extends JFrame {
 
     private GameLauncher() throws HeadlessException {
         canvas = new JPanel();
-        canvas.setPreferredSize(new Dimension(400, 440));
+        canvas.setPreferredSize(new Dimension(900, 940));
 
         controls = new ControlPanel();
-        controls.setPreferredSize(new Dimension(400, 120));
+        controls.setPreferredSize(new Dimension(900, 120));
 
         JPanel rootPanel = new JPanel();
         rootPanel.setLayout(new BoxLayout(rootPanel, BoxLayout.Y_AXIS));
-        rootPanel.setPreferredSize(new Dimension(400, 560));
+        rootPanel.setPreferredSize(new Dimension(900, 800));
         rootPanel.add(canvas, BorderLayout.CENTER);
         rootPanel.add(controls, BorderLayout.SOUTH);
 
@@ -42,7 +42,7 @@ public class GameLauncher extends JFrame {
 
     private void initListeners() {
         // TODO возможность выбора файла
-        Scanner scanner = new Scanner(GameLauncher.class.getResourceAsStream("./../level2.dat"));
+        Scanner scanner = new Scanner(GameLauncher.class.getResourceAsStream("./../level3.dat"));
         Model model = Model.restore(scanner);
         View view = new View();
         view.setGraphics(new SwingGraphicsAdapter(this, canvas.getGraphics()));
